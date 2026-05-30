@@ -1,0 +1,16 @@
+.BM02B-GHS-TBT_LF__SN_ :1 ;GH 1.25mm header top entry 2 way JST GH Series, 1.25mm Pitch 2 Way Shrouded Straight PCB Header, Surface Mount, Solder Termination
+BM02B-GHS-TBT_1
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 4
+*DFN BM02B-GHS-TBT_LF__SN_
+~!Mouser Part Number (306-BM02BGHSTBTLFSNN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM02B-GHS-TBTLFSN?qs=cdbOS8ANM9BvfZxSeyCAhA%3D%3D)
+~!Manufacturer_Name (JST (JAPAN SOLDERLESS TERMINALS))
+~!Manufacturer_Part_Number (BM02B-GHS-TBT(LF)(SN))
+~!Link Datasheet (https://www.mouser.jp/datasheet/3/1498/1/H_S_MINIBENDKR_7_EN.PDF)
+~!Height (-)
+~!3D_Model (BM02B-GHS-TBT_LF__SN_)
+BM02B-GHS-TBT_LF__SN_
+1.1!U 2.1!U 

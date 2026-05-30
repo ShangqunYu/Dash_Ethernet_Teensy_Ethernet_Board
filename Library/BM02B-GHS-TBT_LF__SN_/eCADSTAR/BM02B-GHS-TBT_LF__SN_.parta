@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_383475"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-10-12:31:48)
+    (utime 2026-02-02-11:36:04)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BM02B-GHS-TBT_LF__SN_")
+)
+
+
+(pinAssign "ECS_383475"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-10-12:31:48)
+    (utime 2026-02-02-11:36:04)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_383475")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BM02B-GHS-TBT_LF__SN_")
+)
+
+
+(part "BM02B-GHS-TBT_LF__SN_"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-08-10-12:31:48)
+    (utime 2026-02-02-11:36:04)
+    (packageRef "BM02B-GHS-TBT_LF__SN_")
+    (pinAssignRef "ECS_383475")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "GH 1.25mm header top entry 2 way JST GH Series, 1.25mm Pitch 2 Way Shrouded Straight PCB Header, Surface Mount, Solder Termination")
+    (property "Mouser_Part_Number" "306-BM02BGHSTBTLFSNN")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM02B-GHS-TBTLFSN?qs=cdbOS8ANM9BvfZxSeyCAhA%3D%3D")
+    (property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)")
+    (property "Manufacturer_Part_Number" "BM02B-GHS-TBT(LF)(SN)")
+    (property "Datasheet_Link" "https://www.mouser.jp/datasheet/3/1498/1/H_S_MINIBENDKR_7_EN.PDF")
+)
+
+

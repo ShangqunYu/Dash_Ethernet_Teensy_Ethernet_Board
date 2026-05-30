@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BM02B-GHS-TBT_LF__SN_"
+   (description "GH 1.25mm header top entry 2 way JST GH Series, 1.25mm Pitch 2 Way Shrouded Straight PCB Header, Surface Mount, Solder Termination")
+   (family "CON")
+   (package "BM02B-GHS-TBT_1")
+   (attribute "Datasheet Link" "https://www.mouser.jp/datasheet/3/1498/1/H_S_MINIBENDKR_7_EN.PDF")
+   (attribute "Mouser Part Number" "306-BM02BGHSTBTLFSNN")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM02B-GHS-TBTLFSN?qs=cdbOS8ANM9BvfZxSeyCAhA%3D%3D")
+   (attribute "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)")
+   (attribute "Manufacturer_Part_Number" "BM02B-GHS-TBT(LF)(SN)")
+   (gate
+    (symbol "BM02B-GHS-TBT_LF__SN_")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "BM02B-GHS-TBT_LF__SN_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -100) (pt 200 -100) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BM02B-GHS-TBT_1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.875 -0.4)
+      (pt 2.875 -0.4)
+      (pt 2.875 -4.65)
+      (pt -2.875 -4.65)
+      (pt -2.875 -0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.5 -4.65)
+      (pt 1.5 -4.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.875 -0.4)
+      (pt -2.875 -1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.875 -0.4)
+      (pt 2.875 -1.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.875 -0.4)
+      (pt -1.236 -0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.875 -0.4)
+      (pt 1.236 -0.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 0.59 1.126) (pt 0.642 1.126)
+     )
+    )
+   )
+   (leg 1 (pt 0.625 0) (padstack 0))
+   (leg 2 (pt -0.625 0) (padstack 0))
+   (leg 3 (pt -2.475 -3.35) (padstack 3))
+   (leg 4 (pt 2.475 -3.35) (padstack 4))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 1.7 0 0 90))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 1 2.8 0 0 90))
+   )
+   (padstack 4
+    (plated false)
+    (pad (layer TCOP) (rectf 1 2.8 0 0 90))
+   )
+   (model "BM02B-GHS-TBT_LF__SN_.stp"
+    (euler 90 0 180)
+    (offset -2.880000114440918 -3.759999990463257 0.33000001311302185)
+   )
+  )
+ )
+)

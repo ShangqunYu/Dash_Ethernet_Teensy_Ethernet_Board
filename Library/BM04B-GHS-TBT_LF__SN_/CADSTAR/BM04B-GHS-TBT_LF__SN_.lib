@@ -1,0 +1,16 @@
+.BM04B-GHS-TBT_LF__SN_ :1 ;GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header
+BM04BGHSTBTLFSN
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="MP1" 6="MP2"
+*MXP 6
+*DFN BM04B-GHS-TBT_LF__SN_
+~!Mouser Part Number (306-BM04BGHSTBTLFSNN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D)
+~!Manufacturer_Name (JST (JAPAN SOLDERLESS TERMINALS))
+~!Manufacturer_Part_Number (BM04B-GHS-TBT(LF)(SN))
+~!Link Datasheet (https://g.componentsearchengine.com/ga/3Dstep)
+~!Height (4.2mm)
+~!3D_Model (BM04B-GHS-TBT_LF__SN_)
+BM04B-GHS-TBT_LF__SN_
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

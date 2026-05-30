@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BM02B-GHS-TBT_1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BM02B-GHS-TBT_1")
+        (spec "default")
+    )
+)

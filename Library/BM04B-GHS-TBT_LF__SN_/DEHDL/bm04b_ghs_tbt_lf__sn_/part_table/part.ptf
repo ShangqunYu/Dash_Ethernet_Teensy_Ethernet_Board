@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BM04B_GHS_TBT_LF__SN_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "JST (JAPAN SOLDERLESS TERMINALS)", "BM04B-GHS-TBT(LF)(SN)" (!) = "", "BM04BGHSTBTLFSN", "Other", "306-BM04BGHSTBTLFSNN", "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D", "GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header", "https://g.componentsearchengine.com/ga/3Dstep", "4.2 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BM02B_GHS_TBT_LF__SN_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "JST (JAPAN SOLDERLESS TERMINALS)", "BM02B-GHS-TBT(LF)(SN)" (!) = "", "BM02B-GHS-TBT_1", "Other", "306-BM02BGHSTBTLFSNN", "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM02B-GHS-TBTLFSN?qs=cdbOS8ANM9BvfZxSeyCAhA%3D%3D", "GH 1.25mm header top entry 2 way JST GH Series, 1.25mm Pitch 2 Way Shrouded Straight PCB Header, Surface Mount, Solder Termination", "https://www.mouser.jp/datasheet/3/1498/1/H_S_MINIBENDKR_7_EN.PDF"
+END_PART
+
+END.

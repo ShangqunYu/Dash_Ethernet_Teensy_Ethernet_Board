@@ -1,0 +1,94 @@
+
+(EDIF
+  (rename &BM02B_GHS_TBT_LF__SN_ "BM02B_GHS_TBT_LF__SN_")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 05 30 03 28 53)
+      (dataOrigin "383475/1796395/2.50/2/4/Connector")
+      (program "SamacSys ECAD Model BM02B_GHS_TBT_LF__SN_"
+        (version "1.2"))))
+  (library
+  (rename &BM02B_GHS_TBT_LF__SN_ "BM02B_GHS_TBT_LF__SN_")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &BM02B_GHS_TBT_LF__SN_ "BM02B_GHS_TBT_LF__SN_")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "BM02B_GHS_TBT_LF__SN_"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "BM02B-GHS-TBT_1"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "306-BM02BGHSTBTLFSNN"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM02B-GHS-TBTLFSN?qs=cdbOS8ANM9BvfZxSeyCAhA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "JST (JAPAN SOLDERLESS TERMINALS)"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "BM02B-GHS-TBT(LF)(SN)"))
+          (property (rename &Description "Description") (string "GH 1.25mm header top entry 2 way JST GH Series, 1.25mm Pitch 2 Way Shrouded Straight PCB Header, Surface Mount, Solder Termination"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.mouser.jp/datasheet/3/1498/1/H_S_MINIBENDKR_7_EN.PDF"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "BM02B_GHS_TBT_LF__SN_"))
+          (property (rename VALUE "Value") (string "Value"))
+          (property (rename &NC "NC") (string "3,4"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -100) (pt 600 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 400 0)
+                  (pt 400 -200)
+                  (pt 0 -200)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 30))))
+          )
+        )
+      )
+    )
+  )
+)
